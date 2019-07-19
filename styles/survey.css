@@ -1,0 +1,57 @@
+ html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #ffffff, #acfff4);
+}
+
+main {
+    
+    
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    width: 50%;
+    text-align: right;
+}
+
+.input {
+    width: 50%;
+    text-align: left;
+}
+
+input, select {
+    padding: .5em;
+    margin: 1em;
+    /* width: 100%; */
+}
+
+.full_width  {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
