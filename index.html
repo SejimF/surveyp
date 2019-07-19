@@ -52,7 +52,7 @@
 
                 </div>
                     <div class="input">
-                            <select name="currentPosition" id="dropdown">
+                            <select class="full_width"  name="currentPosition" id="dropdown">
                                     <option value disabled>Select an option</option>
                                     <option value="student">Student</option>
                                     <option value="fullTimeJob">Full Time Job</option>
@@ -95,7 +95,7 @@
             <div class="row">
                     <label class="label" for="whatYouLike">What do you like most in FCC:</label>
                     <div class="input">
-                            <select  name="whatYouLike" id="">
+                            <select  class="full_width"  name="whatYouLike" id="">
                                     <option value disabled>Select an option</option>
                                     <option value="challenges">Challenges</option>
                                     <option value="projects">Projects</option>
@@ -164,8 +164,11 @@
 
             <div class="row">
                     <label class="label" for="suggestions">Any Comments or Suggestions?</label>
-                    <textarea  class="input" name="suggestions" id="suggestions" cols="30" rows="5"
+                    <div  class="input">
+                        <textarea name="suggestions" id="suggestions" cols="30" rows="5"
                         placeholder="Enter your comment here..."></textarea>
+                    </div>
+
             </div>
 
                 <button type="submit" id="submit">Submit</button>
@@ -174,7 +177,6 @@
     </main>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="scripts/index.js"></script>
 </body>
 
 </html>
